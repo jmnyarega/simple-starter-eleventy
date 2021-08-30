@@ -12,12 +12,7 @@
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:sass build:eleventy"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/5t3ph/11ty-sass-skeleton.git"
-  },
-  "author": "5t3ph",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
     "autoprefixer": "^10.3.1",
